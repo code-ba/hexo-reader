@@ -1,10 +1,10 @@
 # hexo-reader
 1. hexo博客的RSS阅读器
-2. 整站文章克隆器
+2. 整站文章克隆器，默认支持克隆主题`butterfly`的博客
 
 ## 安装
 ``` bash
-`npm install hexo-reader -D`
+npm install hexo-reader -D
 ```
 
 ## 指令
