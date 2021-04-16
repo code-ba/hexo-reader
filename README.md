@@ -8,7 +8,8 @@ npm install hexo-reader -D
 ```
 
 ## 指令
-配置好后生成或克隆：`hexo migrate reader`
+配置好后使用唯一指令生成、克隆
+- `hexo reader`
 
 ## 配置
 - 博客配置文件`_config.yml`
@@ -37,17 +38,17 @@ reader:
   categories: picture # 菜单英文
   class: fas fa-puzzle-piece fa-fw # 菜单图标 class
   list:
-    - 百度趣画: https://rsshub.allapi.cc/baidu/doodles
-    - Google 相册: https://rsshub.allapi.cc/google/album/msFFnAzKmQmWj76EA
-    - CNU视觉联盟: https://rsshub.allapi.cc/cnu/selected
-    - NASA每日一天文圖: https://rsshub.allapi.cc/nasa/apod-cn
+    - 百度趣画: https://rsshub.app/baidu/doodles
+    - Google 相册: https://rsshub.app/google/album/msFFnAzKmQmWj76EA
+    - CNU视觉联盟: https://rsshub.app/cnu/selected
+    - NASA每日一天文圖: https://rsshub.app/nasa/apod-cn
 - name: 设计
   categories: picture
   class: fas fa-magic fa-fw
   list:
     # 列表第一个没有标题直接链接，后面的风格需要保持一致
-    - https://rsshub.allapi.cc/uisdc/zt/design-history
-    - https://rsshub.allapi.cc/ui-cn/article
+    - https://rsshub.app/uisdc/zt/design-history
+    - https://rsshub.app/ui-cn/article
 ```
 
 - 克隆配置文件`source/_data/clone.yml`

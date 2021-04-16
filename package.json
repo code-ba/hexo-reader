@@ -1,6 +1,6 @@
 {
   "name": "hexo-reader",
-  "version": "1.0.1",
+  "version": "1.0.8",
   "description": "RSS reader plugin for Hexo,clone website of hexo",
   "main": "index.js",
   "directories": {
@@ -13,10 +13,11 @@
   "scripts": {
     "eslint": "eslint .",
     "test": "mocha test/index.js",
-    "test-cov": "nyc npm run test"
+    "test-cov": "nyc npm run test",
+    "publish": "npm publish"
   },
-  "repository": "hexojs/hexo-migrator-rss",
-  "bugs": "https://github.com/hexojs/hexo-migrator-rss/issues",
+  "repository": "code-ba/hexo-reader",
+  "bugs": "https://github.com/code-ba/hexo-reader/issues",
   "keywords": [
     "hexo",
     "rss",
